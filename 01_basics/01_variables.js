@@ -20,4 +20,4 @@ accountEmail="pushkar@gmail.com"
 accountPassowrd ="2344"
 accountCity = "Lucknow"
 
-console.table([accountId,accountEmail,accountPassowrd,accountCity,accountState])
+console.table([accountId,accountEmail,accountPassowrd,accountCity,a])
