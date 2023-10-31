@@ -39,3 +39,20 @@ let inString  =  String(someNumber)
 
 console.log(inString);
 console.log(typeof inString)
+
+// *********************************** Operations *********************************
+console.log('*********************************** Operations *********************************')
+
+let value = 67
+let negValue  = -value
+// console.log(negValue);
+
+let str1 = "Hello " 
+let str2 = "Pushkar"
+let str3  = str1+ str2;
+// console.log(str3);
+
+// console.log(3+4*(5%3));
+// console.log(+true);
+console.log(+true);
+console.log(+"2");
