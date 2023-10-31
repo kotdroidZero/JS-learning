@@ -41,6 +41,37 @@ const myFunction = function () {
 
 console.log(typeof heros);
 
+// ===============================================================================
+
+
+/// Stack (Primitive), Heap (Non-primitive)
+
+/// when you assign any primitive variable to another primitive variable, it's values are send actually,
+/// but in case of non primitve variables doing so means you are passing reference of that object and any changes via any variables reflects in object inside the heap memory
+/// and this cocept of heap is same in JS, Kotlin, Java and Dart also
+
+let objectOne = {
+    name: "Pushkar"
+}
+
+let objectTwo = objectOne;
+
+console.log(objectOne.name);
+console.log(objectTwo.name);
+
+objectTwo.name = "Srivastava"
+
+console.log(objectOne.name);
+console.log(objectTwo.name);
+
+
+
+
+
+/// So All the data types of primitives go inside the stack and you will get it's values while passing or copying 
+/// and All the non-primitive data types goes inside heap memory and you will use it's referecne while copying, so changes and updates will occur in original objects
+
+/// clear
 
 
 
