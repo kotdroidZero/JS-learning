@@ -7,7 +7,7 @@
 })();
 
 
-/// unNamed Named IIFI
+/// unNamed Named IIFI (passsing name as arguments)
 ((name) => {
     console.log(`Hi ${name} , DB Conected Two`);
 })("Pushkar");
